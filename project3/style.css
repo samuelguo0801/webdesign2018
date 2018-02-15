@@ -1,0 +1,67 @@
+.week {
+  width: 12vw;
+  height: 12vw;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  margin-right: 1vh;
+  margin-left: 2vh;
+  margin-top: 40vh;
+}
+
+p {
+  margin-left: 3vh;
+  font-family: arial;
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 1vh;
+}
+
+#mon:hover {
+  background: radial-gradient(black, hsl(0, 0%, 30%));
+  color: white;
+  border-color: white;
+}
+
+#tues:hover {
+  background: radial-gradient(hsl(0, 0%, 10%), hsl(0, 0%, 50%));
+  color: white;
+  border-color: white;
+}
+
+#wed:hover {
+  background: radial-gradient(hsl(0, 0%, 30%), hsl(0, 0%, 40%));
+  color: white;
+  border-color: white;
+}
+
+#thurs:hover {
+  background: radial-gradient(hsl(0, 0%, 20%), hsl(213, 16%, 51%), white);
+  color: white;
+  border-color: white;
+}
+
+#fri:hover {
+  background: radial-gradient(hsl(0, 0%, 40%), hsl(212, 15%, 40%),hsl(332, 100%, 50%), hsl(59, 100%, 50%));
+  color: white;
+  border-color: white;
+}
+
+#sat:hover {
+  background: radial-gradient(hsl(313, 100%, 50%), hsl(59, 100%, 50%),hsl(185, 100%, 50%),hsl(313, 100%, 50%));
+  color: white;
+  border-color: white;
+}
+
+#sun:hover {
+  background: radial-gradient(hsl(59, 100%, 50%),hsl(116, 100%, 50%), hsl(205, 100%, 29%),hsl(0, 0%, 0%));
+  color: white;
+  border-color: white;
+}
+
+#bodybg {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}

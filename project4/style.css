@@ -1,0 +1,430 @@
+.topbar {
+  position: fixed;
+  background-color: #406bc6;
+  margin: auto;
+  margin-top: -1vh;
+  margin-left: -1vh;
+  height: 7vh;
+  width: 100vw;
+  z-index: 50;
+}
+
+.logo, .searchbar {
+  display: inline;
+  float:left;
+  background-color: white;
+  height: 4vh;
+  border-radius: .5vh;
+  margin: 1.5vh;
+}
+
+.logo {
+  width: 4vh;
+  margin-left: 7vw;
+}
+
+.searchbar {
+  margin-left: 0;
+  width: 40vw;
+}
+
+body {
+  background-color: hsl(0, 0%, 91%);
+}
+
+.sidebar {
+  position: fixed;
+  margin-top: 10vh;
+  margin-left: 7vw;
+  width: 12vw;
+  height: 80vh;
+}
+
+.sideicon {
+  height: 5vh;
+  width: auto;
+  padding-top: 1vh;
+}
+
+.sideicon .icon {
+  display: inline;
+  float: left;
+  background-color: #5091ff;
+  height: 4vh;
+  width: 4vh;
+  border-radius: 2vh;
+}
+
+.sideicon .text {
+  margin-top: 1vh;
+  margin-left: 1vh;
+  display: inline;
+  float: left;
+  background-color: #5e5e5e;
+  height: 2.5vh;
+  width: 8vw;
+}
+
+.sideicon:nth-child(1), .sideicon:nth-child(5) {
+  margin-bottom: 3vh;
+}
+
+.sideicon:nth-child(3n+2) .icon {
+  background-color: red;
+}
+
+.sideicon:nth-child(4n+6) .icon {
+  background-color: purple;
+}
+
+.sideicon:nth-child(3n+1) .text {
+  width:9vw;
+}
+
+.middle {
+  padding-top: 10vh;
+  /* background-color: blue; */
+  width: 40vw;
+  height: 220vh;
+  margin-left: 25vw;
+}
+
+.whatsmind1, .whatsmind2 {
+  border-width: 1px;
+  border-color: hsl(0, 0%, 80%);
+  border-style: solid;
+}
+
+.whatsmind1{
+  border-top-left-radius: .5vh;
+  border-top-right-radius: .5vh;
+  background-color: hsl(0, 0%, 97%);
+  width: auto;
+  height:5vh;
+  border-bottom: 0;
+}
+
+.whatsmind2 {
+  background-color: white;
+  width: auto;
+  height: 20vh;
+  border-bottom-left-radius: .5vh;
+  border-bottom-right-radius: .5vh;
+}
+
+.whatsmind2 .icon {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 4vh;
+  background-color: gray;
+  margin-left: 3vh;
+  margin-top: 2vh;
+  float: left;
+}
+
+.styled-select select {
+  margin-top: 4vh;
+  margin-left: 2vh;
+  float: left;
+  background: transparent;
+  border: none;
+  font-size: 2.5vh;
+  color: hsl(0, 0%, 60%);
+}
+
+hr {
+  display:block;
+  margin-top: 12vh;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+  width: 95%;
+}
+
+.whatsmind2 .button {
+  float: left;
+  background-color: hsl(0, 0%, 94%);
+  width: 10vw;
+  height: 4.5vh;
+  border-radius: 2.25vh;
+  margin-top: .75vh;
+  margin-left: 2vh;
+}
+
+.button .circle1, .button .circle2 {
+  height: 2.5vh;
+  width: 2.5vh;
+  border-radius: 1.25vh;
+  margin-top: .9vh;
+  margin-left: 1vh;
+}
+
+.button .circle1 {
+  background-color: #00d60f;
+}
+
+.button .circle2 {
+  background-color: #ffc239;
+}
+
+.post1, .post2, .post3 {
+  padding:2vh;
+  margin-top: 2vh;
+  background-color: white;
+  border-top-left-radius: .5vh;
+  border-top-right-radius: .5vh;
+  height: 60vh;
+  width: auto;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 80%);
+  border-style: solid;
+  border-bottom: none;
+}
+
+.sponsored {
+  font-family: arial;
+  font-size: 2vh;
+  color: hsl(0, 0%, 70%)
+}
+
+#post1 {
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  width: 100%;
+}
+
+.post1 img {
+  position: relative;
+  width: 100%
+}
+
+.post1 .article {
+  border-width: 2px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 90%)
+}
+
+.article-title {
+  font-family: baskerville;
+  font-size: 3.5vh;
+  margin: 2vh;
+}
+
+.dislike-button {
+  float: right;
+  border-bottom-right-radius: .5vh;
+}
+
+.like-button {
+  border-bottom-left-radius: .5vh;
+}
+
+.like-button, .dislike-button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 80%);
+  background-color: white;
+  width: 50%;
+  height: 8vh;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 4vh;
+  transition-duration: .2s;
+}
+
+.like-button {
+  color: hsl(233, 100%, 75%);
+}
+
+.dislike-button {
+  color: hsl(0, 100%, 75%);
+}
+
+.like-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.dislike-button:hover {
+  background: red;
+  color: white;
+}
+
+.post2 {
+    height: 20vh;
+}
+
+.post2 .icon, .post3 .icon {
+  float: left;
+  border-radius: 3vh;
+  background-color: #00c2a5;
+  height: 6vh;
+  width: 6vh;
+}
+
+.post2 .name1, .post2 .name2, .post3 .name1, .post3 .name2{
+  float: left;
+  background-color: gray;
+  height: 2vh;
+  width: 20%;
+  margin-top: 2vh;
+  margin-left: 2vh;
+}
+
+.post2 .name2 {
+  width: 12%;
+}
+
+.post2 .text {
+  font-family: arial;
+  font-size: 3.5vh;
+  margin-top: 3vh;
+  margin-left: 1vh;
+  display: inline-block;
+  position: relative;
+  width: 100%
+}
+
+.post3 {
+  height: 57vh;
+}
+
+.post3 .icon {
+  background-color: #ffa342;
+}
+
+.post3 .text {
+  font-family: arial;
+  font-size: 2vh;
+  margin-top: 3vh;
+  margin-left: 1vh;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------------------------------------------- */
+
+.adbar {
+  position: fixed;
+  right: 0;
+  /* background-color: gray; */
+  z-index: 150;
+  top: 11vh;
+  right: 10vw;
+  height: 85vh;
+  width: 20vw;
+}
+
+.ad {
+  background-color: white;
+  border-radius: 0.5vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 80%)
+}
+
+.adbar #one {
+  border-width: 3px;
+  border-color: #e25f00;
+  height: 12vh;
+  width: auto;
+  background-color: #ffc52f;
+  padding: 1vw;
+}
+
+.pedigree {
+  position: relative;
+  margin-top: 1vh;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 3vh;
+  color: #ff0000;
+}
+
+#one .text {
+  /* background-color: white; */
+  font-size: 2vh;
+  position: relative;
+  margin-top: -1vh;
+  width: 60%;
+  font-family: calibri;
+  color: hsl(0, 0%, 40%)
+}
+
+#petfood {
+  margin-top: -12vh;
+  margin-right: .6vw;
+  display: inline-block;
+  float: right;
+  position: relative;
+  height: 80%;
+  width: auto;
+}
+
+.adbar #two {
+  background: radial-gradient(#ff859e,#9f0035);
+  margin-top: 2vh;
+  height: 40vh;
+  width: auto;
+  border-color: #eba900;
+  border-width: 3px;
+}
+
+#icecream {
+  display: block;
+  height: 65%;
+  width: auto;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  bottom
+}
+
+#two .text {
+  margin-top: 4vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.adbar #three {
+  border-color: black;
+  border-width: 2px;
+  margin-top: 2vh;
+  position: relative;
+  display: block;
+  height: 25vh;
+  width: auto;
+  background-color: white;
+}
+
+#netflixlogo {
+  position: absolute;
+  margin-top: 2vh;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+#three .text {
+  color: black;
+  position: absolute;
+  font-style: italic;
+  font-family: arial;
+  font-size: 2vh;
+  text-align: center;
+  bottom: 2vh;
+  right: 0;
+  left: 0;
+}

@@ -1,0 +1,149 @@
+
+.rposter, .container2, .container3, .container4 {
+  background: #f2efe4
+}
+
+.rposter {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rposter, .lposter {
+  width: 49.8vw;
+  height: 150vh;
+}
+
+.rtext {
+  font-family: Helvetica;
+  font-weight: Bold;
+  color: #f04f13
+}
+
+.SM {
+  font-size: 20em;
+}
+
+.modern {
+  padding-top: 15vh;
+  font-size: 12em;
+}
+
+.art {
+  position: absolute;
+  margin-top: -3vh;
+  font-size: 12em;
+}
+
+.details {
+  margin-top: 30vh;
+  font-size: 2em;
+}
+
+.rposter, .container2, .container3, .container4 {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.container2, .container3, .container4 {
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.container2 {
+  width: 49.3vw;
+  height: 115vh;
+  bottom: 2px;
+}
+
+.container3 {
+  width: 48.8vw;
+  height: 81vh;
+  bottom: 2px;
+  z-index: 50;
+}
+
+.container4 {
+  width: 48.3vw;
+  height: 63vh;
+  bottom: 2px;
+  z-index: 70;
+}
+
+/* -------------------------------------------------------------- */
+
+.lposter {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: black;
+}
+
+.title {
+  color: white;
+  font-family: arial;
+  padding: 3em;
+}
+
+.beel {
+  font-size: 3em;
+}
+
+.beelsub {
+  letter-spacing: 0.05em;
+  font-size: .8em;
+  font-weight: bold;
+  padding-top: 2em;
+}
+
+.layer1, .twelve {
+  letter-spacing: -.15em;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 48em;
+  color: white;
+  margin-left: -2vw;
+  width: auto;
+}
+
+.layer1 {
+  margin-top: -18vh;
+}
+
+.layer2, .layer3, .layer4, .layer5 {
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background: black;
+}
+
+.layer2 {
+  top: 48vh;
+  z-index: 100;
+}
+
+.layer3 {
+  top: 63vh;
+  z-index: 120;
+}
+
+.layer4 {
+  top: 85vh;
+  z-index: 120;
+}
+
+.layer5 {
+  top: 115vh;
+  z-index: 140;
+}
+
+.twelve {
+  position: absolute;
+  top: -.20em;
+}

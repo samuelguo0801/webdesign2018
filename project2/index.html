@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tell Us More</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Roboto:400,700" rel="stylesheet">
+
+
+</head>
+
+<body>
+<script src="msg.js"></script>
+
+<div class="banner">
+<h1>Tell Us More</h1>
+
+</div>
+
+<div class="topad">
+  <img class="ualogo" src="assets/ua-logo.svg" alt="United Airlines Logo">
+  <div class="uadets">
+    Book today at www.united.com
+    <div class="uatext">
+    All new flights from <br>
+    <span class="large">PROVIDENCE</span><br>
+    to<br>
+    <span class="large" id="ad1">dallas</span>
+    </div>
+  </div>
+</div>
+
+<section>
+<h3>
+  How well do you know your friends?
+  <p id="smaller">
+    Try filling this out with friends and see how your answers match up!
+  </p>
+</h3>
+
+<form id="ques1">
+  When I think of
+    <input type="text" id="country1" placeholder="country/city">
+    the first thing that comes to mind is their
+    <input type="text" id="noun1" placeholder="noun">
+    .
+</form>
+
+<button onclick="printad1()"> Submit </button>
+
+<form id="ques2">
+  Future advancements will allow us to become
+  <input type"text" id="comp1" placeholder="comparative 1">,
+  <input type"text" id="comp2" placeholder="comparative 2">, and
+  <input type"text" id="comp3" placeholder="comparative 3">than ever before.<br><br>
+
+<span class="complist">
+  (<a href="https://www.easypacelearning.com/all-lessons/grammar/1436-comparative-superlative-adjectives-list-from-a-to-z" target="blank">Here</a> is a handy list of comparative adjectives just in case)
+</span>
+</form>
+
+
+<button onclick="printad2a(), printad2b(), printad2c()"> Submit </button>
+
+<p>
+</p>
+
+<form id="ques3">
+  When I'm feeling down all I just listen to
+  <input type="text" id="artist" placeholder="artist">
+  and suddenly all is right with the world.
+</form>
+
+<button onclick="printad3()"> Submit </button>
+
+</section>
+
+<div class="rightad">
+  <div class="rightadtext">
+    <div id="rightadsmaller">
+      We guarantee to be
+    </div>
+    <span id="ad2b">smarter</span>, <span id="ad2c">shorter</span>, <span id="ad2a">lighter</span>,
+    <div id="rightadsmaller">
+      than all competition.
+    </div>
+    <button> SHOP NOW </button>
+    <p id="rightadtext">ADRP</p>
+  </div>
+
+</div>
+
+<div class="spotify">
+  <div id="spotlogo">Spotify</div>
+  <div class="spotext">
+    Never miss out again. Catch all the latest hits from <span id="ad3">Queen</span> for just $9.99 a month.
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+section {
+  display: flex;
+}
+
+.text {
+  text-align: center;
+  background: black;
+  color: white;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-img, .text {
+  display: flex;
+  flex: 1;
+}
+
+.feature-img {
+  background: url('img/cover1.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+}
+
+.morearticles {
+  width: 80%;
+  margin: auto;
+}
+
+article {
+  flex: 1;
+  padding: 1rem;
+}

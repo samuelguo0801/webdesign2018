@@ -1,0 +1,196 @@
+.banner, section {
+  margin-left: 10vw;
+}
+
+.banner, .rightad {
+  margin-right: 10vw;
+}
+
+.banner, button {
+  background-color: #f44e76;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 12em;
+  font-family: 'Josefin Slab'
+}
+
+.topad {
+  height: 9em;
+  background-color: #5389ff;
+  margin-top: -5em;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.ualogo {
+  padding-top: 1em;
+  width: 20em;
+  padding-left: 2em;
+  height: auto;
+}
+
+.uadets {
+  width: 40em;
+  padding-top: 0em;
+  padding-left: 4em;
+  font-family: Helvetica;
+  font-weight: 100;
+  color: white;
+}
+
+.uatext {
+  margin-top: -5.2em;
+  line-height: 1.7em;
+  text-align: center;
+  float: right;
+}
+
+.large {
+  font-weight: bold;
+  font-size: 2.1em;
+}
+
+#ad1 {
+  text-transform: uppercase;
+}
+
+section {
+  float: left;
+  width: 55em;
+  font-family: Roboto;
+  margin-bottom: 20em;
+  margin-top: -2em;
+}
+
+h3 {
+  height: auto;
+  padding-top: 1em;
+  font-weight: bold;
+  font-family: Roboto;
+  line-height: 1.5em;
+  font-size: 2.5em;
+}
+
+#smaller {
+  width: 35em;
+  font-size: .6em;
+  line-height: 1.5em;
+  color: #f44e76;
+}
+
+form {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+button{
+  font-size: 1em;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: .5em 1em;
+  margin-bottom: 1.5em;
+}
+
+input {
+  font-size: .8em;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+  padding: 0.5em;
+}
+
+.complist {
+  font-size: .8em;
+}
+
+a:link, a:visited {
+  color: #f44e76;
+  text-decoration: none;
+}
+
+.rightad {
+  color: white;
+  position: relative;
+  background: linear-gradient(black,gray);
+  float: right;
+  height: 50em;
+  width: 15em;
+  margin-top: 8em;
+}
+
+.rightadtext {
+  padding-top: 3em;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  font-family: arial;
+  font-weight: 900;
+  font-style: oblique;
+}
+
+#rightadsmaller {
+  text-align: center;
+  font-size: .35em;
+}
+
+.rightad button{
+  margin-top: 7em;
+  font-weight: bold;
+  background-color: white;
+  font-size: .5em;
+  border: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  padding: .5em 1em;
+  margin-bottom: 6em;
+  width: 9em;
+}
+
+.spotify {
+  border: 5px solid black;
+  border-radius: 1em 1em 0 0;
+  margin-left: 9.5vw;
+  width: 80vw;
+  height: 3em;
+  position: fixed;
+  bottom: 0;
+  background-color: #8fff53;
+  border-bottom-style: none;
+}
+
+.spotify {
+  font-family: "lucida grande";
+}
+
+.spotext {
+  width: auto;
+  padding-top: .8em;
+  padding-left: 3em;
+}
+
+#ad3 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#spotlogo {
+  position: absolute;
+  right: 0;
+  padding-right: 2em;
+  text-align: right;
+  padding-top: .5em;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5em;
+}
